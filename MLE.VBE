@@ -1,0 +1,12 @@
+//VBBeginPartInfo: MultiLineEdit,"IMultiLineEdit w/ handler for selectedText notification"
+//VBParent: IMultiLineEdit
+//VBIncludes: "mle.hpp" _MULTILINEEDIT_
+//VBLibFile: mle.lib
+//VBPartDataFile: mle.vbb
+//VBConstructor: MultiLineEdit(unsigned long id, IWindow * parent = IWindow::desktopWindow(), IWindow * owner = IWindow::desktopWindow(), const IRectangle & rect = IRectangle(), const IMultiLineEdit::Style & style = IMultiLineEdit::defaultStyle())
+//VBComposerInfo: visual, 310, dde4vr30, userprimitive
+//VBAttribute: selectedText,"Returns the selected text string.  The event fires whenever mouse button 1 is released.",IString,virtual IString selectedText() const,,selectedTextId
+//VBAttribute: selectedTextLength,"Returns the size of the selected text, in bytes.  The event fires whenever mouse button 1 is released.",unsigned long,virtual unsigned long selectedTextLength() const,,selectedTextId
+//VBAttribute: hasSelectedText,"Queries whether any of the MLE's text is selected.  The event fires whenever mouse button 1 is released.",Boolean,virtual Boolean hasSelectedText() const,,selectedTextId
+//VBEndPartInfo: MultiLineEdit
+
